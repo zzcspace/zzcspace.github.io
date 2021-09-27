@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>ZZC's space</title>
-        <link rel="shortcut icon" type="image/png" href="https://zzcspace.github.io/favicon.ico">
-        <script>
-
-        </script>
-    </head>
-    <body>
-
-    </body>
+	<head>
+		<title>ZZC's space</title>
+		<link rel="shortcut icon" type="image/png" href="https://zzcspace.github.io/favicon.ico">
+		<script>
+			function $1$On() {
+				document.getElementById("1").innerHTML = "<button onclick='$1$Off()'>Tools 工具 ∧</button>";
+				document.getElementById("2").innerHTML = "<a href='https://csacademy.com/app/graph_editor/'>Graph Editor 建图工具</a><br>";
+				document.getElementById("3").innerHTML = "<a href='https://wx2.qq.com/'>WeChat 微信网页版</a>";
+				document.getElementById("4").innerHTML = "<a href='http://cpp.sh/'>C++ Shell C++编译器</a>";
+				document.getElementById("5").innerHTML = "<a href='https://cn.bing.com/'>Bing 微软Bing搜索</a>";
+				document.getElementById("6").innerHTML = "<a href='https://luogu.com.cn/'>Luogu 洛谷</a>";
+				document.getElementById("7").innerHTML = "<a href='https://zhihu.com'>ZhiHu 知乎</a>";
+				document.getElementById("8").innerHTML = "<a href='https://zh.numberempire.com/'>Calculator 高级计算器</a>"
+			}
+			function $1$Off() {
+				document.getElementById("1").innerHTML = "<button onclick='$1$On()'>Tools 工具 ∨</button>";
+				document.getElementById("2").innerHTML = "";
+				document.getElementById("3").innerHTML = "";
+				document.getElementById("4").innerHTML = "";
+				document.getElementById("5").innerHTML = "";
+				document.getElementById("6").innerHTML = "";
+				document.getElementById("7").innerHTML = "";
+				document.getElementById("8").innerHTML = "";
+			}
+		</script>
+	</head>
+	<body>
+		<h1>ZZC's space</h1>
+		<p id="1"><button onclick='$1$On()'>Tools 工具 ∨</button></p>
+		<p id="2"></p>
+		<p id="3"></p>
+		<p id="4"></p>
+		<p id="5"></p>
+		<p id="6"></p>
+		<p id="7"></p>
+		<p id="8"></p>
+	</body>
 </html>
