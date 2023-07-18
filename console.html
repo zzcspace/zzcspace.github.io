@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Console</title>
+	</head>
+	<body>
+		<code id="p"></code>
+		<input id="i" onchange="f()">
+	</body>
+	<script>
+		function f() {
+			var i=document.getElementById("i");
+			var p=document.getElementById("p");
+			p.innerText+=">>> "+i.value+"\n"+eval(i.value)+"\n";
+			i.value="";
+		}
+	</script>
+</html>
